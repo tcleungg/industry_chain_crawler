@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scrapy = "*"
+beautifulsoup4 = "*"
+"web.py" = "==0.61"
+requests = "*"
+pandas = "*"
+mariadb = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
